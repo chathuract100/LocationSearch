@@ -34,12 +34,12 @@ namespace RoamlerLocationSearch.DataAccess
 
         public List<Location> GetLocations()
         {
-            return GetLocationsFileReader();
+            return GetLocationsStreamReader();
         }
 
         public async Task<List<Location>> GetLocationsAsync()
         {
-            return await GetLocationsStreamReaderAsync();
+            return await GetLocationsFileReadAsync();
         }
 
         public List<Location> GetLocationsParallel()
