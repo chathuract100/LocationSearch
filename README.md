@@ -1,4 +1,4 @@
-# Roamler Locacation Search Assignment
+# Locacation Search
 
 ## Technologies used in the project
 - .Net core 3.1
